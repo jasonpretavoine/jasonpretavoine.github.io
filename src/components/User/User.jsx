@@ -5,13 +5,14 @@ import MailIcon from '@mui/icons-material/Mail';
 import EventIcon from '@mui/icons-material/Event';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Avatar from '@mui/material/Avatar';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const User = () => {
   return (
     <div className="user">
       <Avatar
         alt="Jason pretavoine"
-        src="../../public/images/utilisateur.png"
+        src="/images/utilisateur.png"
         sx={{
           width: 100,
           height: 100,
@@ -28,6 +29,9 @@ const User = () => {
           122 Route du Paulu, 76480, Saint-Pierre-de-Varengeville
         </p>
         <p className="user__info">
+          <EventIcon /> 8 Février 1996
+        </p>
+        <p className="user__info">
           <PhoneIcon />
           <a href="te:+33605395421">06 05 39 54 21</a>
         </p>
@@ -38,11 +42,12 @@ const User = () => {
           </a>
         </p>
         <p className="user__info">
-          <GitHubIcon />
-          <a href="https://github.com/jasonpretavoine">GitHub</a>
+          <LinkedInIcon />
+          <a href="https://www.linkedin.com/in/jason-pretavoine/">Linkedin</a>
         </p>
         <p className="user__info">
-          <EventIcon /> 8 Février 1996
+          <GitHubIcon />
+          <a href="https://github.com/jasonpretavoine">GitHub</a>
         </p>
       </div>
     </div>
