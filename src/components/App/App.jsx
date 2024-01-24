@@ -1,26 +1,27 @@
-import logo from '../../assets/logo.svg';
-
 import './App.scss';
+import User from '../User/User';
+import Skills from '../Skills/Skills';
+import Profil from '../Profil/Profil';
+import FormationsExperiences from '../Formations/FormationsExperiences';
+// eslint-disable-next-line import/no-named-as-default
+import DarkMode from '../DarkMode/DarkMode';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <p>
-          Edit <code>src/components/App/App.jsx</code> and save to reload.
-        </p>
-
-        <a
-          className="App-link"
-          href="https://react.dev/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="grid__container">
+        <div className="sidebar">
+          <div className="actions">
+            <DarkMode />
+          </div>
+          <User />
+          <Skills />
+        </div>
+        <div className="main">
+          <Profil />
+          <FormationsExperiences />
+        </div>
+      </div>
     </div>
   );
 }

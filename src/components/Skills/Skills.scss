@@ -1,0 +1,15 @@
+.skills {
+  margin:var(--spacing-3) 0;
+}
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.interests {
+  /* display:none; */
+  align-items: center;
+}
+.interests svg {
+  margin: var(--spacing-1);
+}
