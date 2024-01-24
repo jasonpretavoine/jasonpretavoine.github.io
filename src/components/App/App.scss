@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100,200,300,400,900;100,200,300,400,100&display=swap");
 
 *,
 ::before,
@@ -20,7 +20,7 @@
   --dark-sidebar-bg-color: #171717;
   --dark-text-color: #d8d8d8;
   --dark-title-color: #eee;
-  --dark-date-color: #e6ef71;
+  --dark-date-color: #1f94c2;
 
   --icon-color: var(--text-color);
   --circle-color: #aaa;
@@ -30,7 +30,7 @@
   --dark-circle-color-plain: #eee;
 
   /* fonts */
-  --body-font: "Poppins", "Sans-serif";
+  --body-font: "Raleway", sans-serif;
   --h1-font-size: 1.7rem;
   --h2-font-size: 1.3rem;
   --h3-font-size: 1.1rem;

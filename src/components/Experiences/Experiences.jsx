@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import experiencesData from '../../data/experiences';
 
 const Experiences = () => {
@@ -10,7 +11,9 @@ const Experiences = () => {
             <p className="grid__date">{experience.date}</p>
           </div>
           <div className="grid__item">
-            <h3 className="grid__title">{experience.title}</h3>
+            <h3 className="grid__title">
+              {experience.title} - {experience.societe}
+            </h3>
             <p className="grid__location">{experience.location}</p>
             <p className="grid__text">{experience.text}</p>
             <ul className="grid__missions">

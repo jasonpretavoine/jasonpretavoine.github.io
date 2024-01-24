@@ -4,11 +4,22 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
 import EventIcon from '@mui/icons-material/Event';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Avatar from '@mui/material/Avatar';
 
 const User = () => {
   return (
     <div className="user">
-      <img src="./media/avatar.png" alt="" className="user__avatar" />
+      <Avatar
+        alt="Jason pretavoine"
+        src="../../public/images/utilisateur.png"
+        sx={{
+          width: 100,
+          height: 100,
+          justifyContent: 'center',
+          display: 'flex',
+          margin: 'auto',
+        }}
+      />
       <h1 className="user__name">Jason PRETAVOINE</h1>
       <p className="user__profession">Développeur FullStack</p>
       <div className="user__infos">

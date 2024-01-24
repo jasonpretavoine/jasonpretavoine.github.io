@@ -6,6 +6,9 @@
 .user__avatar {
   border-radius: 50%;
 }
+.user__name {
+  padding-top: 10px;
+}
 .user__infos {
   text-align: left;
   padding: var(--spacing-3) 0 var(--spacing-1) 0;
