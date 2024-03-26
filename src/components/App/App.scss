@@ -120,6 +120,7 @@ li {
 }
 .mb5 {
   margin-bottom: var(--spacing-5);
+  margin-top: var(--spacing-5);
 }
 
 /* grids */
@@ -223,4 +224,7 @@ li {
 }
 .cv-print .grid__date {
   margin-top: 5px;
+}
+.TextField {
+color:#F0F;
 }

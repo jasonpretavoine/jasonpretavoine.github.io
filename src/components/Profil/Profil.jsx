@@ -3,12 +3,12 @@ const Profil = () => {
     <div className="profil mb5">
       <h2 className="h2">Profils</h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
-        possimus magni eos aliquid aliquam optio. Porro, non! Ullam quod
-        voluptatem dolore quia, est suscipit incidunt repellat porro odit iusto
-        natus amet necessitatibus aliquid accusamus et a molestiae nemo
-        doloremque at nihil cupiditate blanditiis nesciunt repudiandae facere.
-        Veritatis quos aliquam veniam tempore distinctio.
+        Récemment diplômé de la formation intensive Développeur Web Full Stack
+        de O'Clock, avec une spécialisation en React, je possède les compétences
+        techniques et pratiques nécessaires pour concevoir et développer des
+        applications web modernes et réactives. Passionné par la résolution de
+        problèmes et l'innovation, je suis prêt à apporter ma contribution
+        technique et ma créativité à une équipe dynamique.
       </p>
     </div>
   );

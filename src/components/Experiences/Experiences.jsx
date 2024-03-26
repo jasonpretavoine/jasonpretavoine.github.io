@@ -16,13 +16,6 @@ const Experiences = () => {
             </h3>
             <p className="grid__location">{experience.location}</p>
             <p className="grid__text">{experience.text}</p>
-            <ul className="grid__missions">
-              {experience.missions.map((mission, k) => (
-                <li className="grid_missions" key={k}>
-                  {mission}
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
       ))}

@@ -2,7 +2,7 @@ const formationsData = [
   {
     title: 'Developpeur Web FullStack spécialisation React',
     date: 'Septembre 2023 - Février 2024',
-    location: 'A distance',
+    location: "Ecole O'clock",
   },
   {
     title:
